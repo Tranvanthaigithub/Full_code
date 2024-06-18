@@ -1,0 +1,92 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-color: blanchedalmond;
+}
+.container{
+    max-width: 1000px;
+    background-image: url("https://media.licdn.com/dms/image/C4E12AQHO0-NzzwJodQ/article-inline_image-shrink_1500_2232/0/1520222086640?e=1717027200&v=beta&t=NEDsID3n4347gkJUJtFMVJ40pDXzNSBjJgYIzqTBEaU");
+    padding:30px;
+    margin:20px;
+    border: 5px solid rgb(12, 11, 13);
+}
+.img-area img{
+    width:100px;
+}
+.header{
+    display:flex;
+}
+.comment{
+   padding-left: 70px;
+
+}
+.menu{
+    background-color: bisque;
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin:20px;
+}
+.flex{
+    display:flex;
+}
+.left{
+    width:700px;
+
+
+}
+.right{
+    background-color: yellow;
+    max-width: 300px;
+    max-height: 150px;
+   
+    padding: 55px;
+}
+.img-area1 img{
+    width:500px;
+  margin-bottom: 10px;
+}
+.footer{
+    display:flex;
+    margin-top: 20px;
+    flex-direction: row-reverse;
+    border-top: 5px solid rgb(12, 11, 13);
+    padding-top: 15px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%; 
+        padding: 20px;
+    }
+    .flex {
+        flex-direction: column;
+    }
+
+    .left {
+        order: 2;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .right {
+        order: 1;
+        margin-top: 20px;
+        width: 100%;
+    } 
+    .menu ul {
+        display: block; /* Hiển thị menu khi kích thước màn hình nhỏ hơn 768px */
+    }
+
+    .menu ul li {
+        display: block; /* Hiển thị mỗi mục menu trên một dòng */
+        text-align: center; /* Căn giữa nội dung menu */
+    }
+
+    .menu #toggleMenu {
+        display: block; /* Hiển thị icon menu */
+    }
+    }

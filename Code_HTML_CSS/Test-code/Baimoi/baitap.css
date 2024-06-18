@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.left{
+    width:1000px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 450px;
+    background-color: #e9ecef;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: blue;
+    color: white;
+  }
+  .row {
+    display:flex;
+    padding-top: 15px;
+    
+  }
+
+  .right{
+    width:25%;
+    margin-left: 50px;
+  }
+
+ 
+
+
+
+  .left{
+    width:auto;
+    text-align: justify;
+    font-size: 17px;
+    
+  }
+  .text-primary{
+    width:50px
+  }
+  .col_container{
+        width:auto;      
+  }
+  .nav_bar{
+    position:absolute;
+    right:100px;
+  }
+  .list ul li a{
+  
+    color:blue;
+  }
+  
+ 
+
+
+  
+  
+  
+  
+  

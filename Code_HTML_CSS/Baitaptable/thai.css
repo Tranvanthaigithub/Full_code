@@ -1,0 +1,170 @@
+*{
+  padding:0%;
+  margin:0%;
+  box-sizing: border-box;
+}
+body{
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  background-image: url('http://laminateaica.com.vn/datafiles/galagy/15384570024080_as-14000-cs21-light-artizan-oak.jpg');
+  margin-top: 50px;
+ 
+}
+.rgb{
+  background-image: linear-gradient(0, rgba(235, 193, 8, 0.5), rgba(239, 238, 234, 0.5));
+  border: 2px solid rgb(12, 11, 13);
+  max-width: 1030px;
+  height:auto;
+  margin:auto;
+}
+
+.container{
+  background-color: #fff;
+border: 2px solid rgb(12, 11, 13);
+max-width: 1000px;
+height:auto;
+margin:auto;
+
+/*background-repeat: no-repeat;
+background-size: 1000px;    
+background-image: linear-gradient(0, rgb(36 117 117 / 50%), rgb(141 129 47 / 50%)),
+url(https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/435056362_1143336066685744_4491267183122159275_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=y3MAe-efHjoAb5goiLB&_nc_ht=scontent.fdad3-6.fna&oh=00_AfBPKXUVeQmrxQvfHuX4c-NJpU4_NVrRNNw9CApryC_dNQ&oe=661A788A);*/
+}
+.img-area img{
+ width:100px;
+ height:100px;
+}
+
+
+.img-area2 img{
+ width: 600px;
+}
+
+.head{
+  display:flex;
+ 
+}
+.header{
+  margin:20px;
+}
+
+.header h1{
+  color:darkorange;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+/* Cái menu*/
+.nav {
+  background-color: burlywood;
+  
+}
+
+.menu {
+  list-style-type: none; 
+  padding: 0; 
+  display:flex;
+  justify-content: space-around;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block; 
+  
+  text-decoration: none; 
+  padding: 10px 20px; 
+}
+
+.menu li a:hover {
+  background-color: #cb2727;
+}
+/*End cái menu*/
+
+.menu{
+  
+  background-color: #e6ad43;
+  display:flex;
+  justify-content: space-around;
+}
+
+.body{
+  display:flex;
+  margin: 10px;
+  border-bottom: 2px solid rgb(222, 163, 25);
+  
+}
+
+.right{
+  width:70%;
+  text-align: justify;
+}
+
+
+.left{
+  background-color:antiquewhite ;
+  width:auto;
+  height: 220px;
+
+}
+
+.content{
+  margin-bottom: 25px;
+}
+
+.footer{
+  display:flex;
+  justify-content: flex-end;
+}
+
+.name{
+  padding:35px;
+}
+.slicknav_menu{
+  display:none;
+}
+
+
+@media only screen and (max-width: 768px){
+ 
+  .container {
+      max-width: 90%; 
+      padding: 20px;
+  }
+  .menu{
+    display:none;
+  }
+
+  .head{
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .left{
+      display:flex;
+      width:100%;
+  } 
+
+  .right{
+      width:100%;
+  }
+
+  .img-area2 img{
+     max-width: 100%;
+  }
+
+  .body{
+      flex-direction: column-reverse;
+  }
+
+
+  .header{
+      flex-direction: column;
+  }
+  .footer{
+      justify-content:center;
+  }
+  .slicknav_menu{
+    display:block;
+  }
+}

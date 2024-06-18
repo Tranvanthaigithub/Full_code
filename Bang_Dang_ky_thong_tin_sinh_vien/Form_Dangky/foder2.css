@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:o;
+}
+.input{
+    display:inline-block;
+    width:  auto;
+    text-align: right;
+}
+.header{
+    margin:5px;
+}
+.input {
+
+    margin-bottom: 10px;
+}
