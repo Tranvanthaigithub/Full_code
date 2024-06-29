@@ -1,0 +1,11 @@
+*{
+    padding:0;
+    margin:0;
+}
+#text{
+ color:blue;
+}
+
+.body_top{
+    display:flex;
+}
