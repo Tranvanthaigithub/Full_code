@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Boostrap"
+		},
+		{
+			"path": "../Test-code"
+		},
+		{
+			"path": "../thai"
+		},
+		{
+			"path": "../thumenu"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Baitaptable"
+	}
+}
