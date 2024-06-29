@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="foder2.css">  
+  <title>Đăng ký thông tin</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+
+      <h1>Đăng ký thông tin</h1>
+    
+    </div>
+  
+    <div class="body">
+
+      
+      <div id="registration-form">
+        <div class="type_input">
+
+          <label for="name">Họ và tên:</label>
+          <input type="text" id="txtName" name="Name"><br><br>
+          
+          <label for="age">Tuổi:</label>
+          <input type="number" id="txtAge" name="Age"><br><br>
+          
+        </div>
+      <label for="Class"> Lớp:</label>
+      <select id="cbbClassName">
+        <option> FE1 </option>
+        <option> FE2 </option>
+        <option> FE3 </option>
+        <option> FE4 </option>
+        <option> FE5 </option>
+        <option> FE6 </option>
+      </select>  
+      <br>
+        <div class="Check_gender">
+          <label for="Nam">Nam</label>
+          <input type="radio" name="gender" value="Nam" checked>
+          
+          <label for="Nu">Nữ</label>
+          <input type="radio" name="gender" value="Nữ"> <br><br>
+          
+        </div>
+        
+        <button  id="submit">Đăng ký</button>
+        <button  id="reset">xóa</button>
+      </div>
+      <p id="lbStatusSubmit"></p>
+    </div>
+      <a href=""> Tra cứu thông tin ở đây!!!</a>
+  
+  
+</div>
+
+</body>
+<script src="foder2.js"></script>
+</html>
